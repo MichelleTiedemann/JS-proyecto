@@ -3,13 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cepage - Cuidado Facial</title>
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Document</title>
   </head>
   <body>
-    <h1 class="hola">
-      Hola!!! Veni a conocer los productos Cepage que necesitas para tu piel!
-    </h1>
-    <script src="./segunda-pre-entrega.js"></script>
+    <main>
+      <h1>Cepage - Cuidado Facial</h1>
+      <div id="category-buttons">
+        <button class="category-button" onclick="showProducts('limpiadores')">
+          Limpiadores Faciales
+        </button>
+        <button class="category-button" onclick="showProducts('serums')">
+          Serums
+        </button>
+        <button class="category-button" onclick="showProducts('cremas')">
+          Cremas
+        </button>
+        <button class="category-button" onclick="showProducts('protectores')">
+          Protectores Solares
+        </button>
+      </div>
+      <div id="products"></div>
+      <div id="product-details"></div>
+    </main>
+    <script src="./tercera-pre-entrega.js"></script>
   </body>
 </html>

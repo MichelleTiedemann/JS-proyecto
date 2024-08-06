@@ -1,3 +1,46 @@
-.hola {
-  color: palevioletred;
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f0f0f0;
+}
+
+main {
+  text-align: center;
+}
+
+h1 {
+  color: #5e3f7d;
+}
+
+#categories,
+#products {
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #8e7cc3;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #724bb7;
+}
+
+.product-item {
+  margin: 10px 0;
+}
+
+#product-details {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 5px;
 }
